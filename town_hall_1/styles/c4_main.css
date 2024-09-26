@@ -1,14 +1,30 @@
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
+  	font-size: 100%;
+	float: right;
 }
 
 /* the styles for the header */
+:root {
+	-- global-color-1: #800000;
+}
 header img {
 	float: left;
 }
-
+header h3 {
+	text-indent : 30px;
+	font-size: 130%;
+	font-style: italic;
+	.shadow {
+	text shadow: 2px 2px 4px #800000;
+}
+}
+header h2 {
+	color: var(--global-color-1);
+	font-size: 170%
+	text-indent: 30 px;
+}
 /* the styles for the main content */
 main {
 	clear: left;
@@ -18,10 +34,14 @@ main h1 {
 }
 main h2 {
 	color: var(--global-color-1);
-	font-size: 130%;
+	font-size: 170%;
 }
 main h3 {
-	font-size: 105%;
+	a:hover, a:focus {
+		font-style: italic;
+	}
 }
-
 /* the styles for the footer */
+footer {
+	text-align- center:
+}
